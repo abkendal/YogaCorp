@@ -5,57 +5,173 @@
 	<meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery-1.11.2.min.js" async></script>
+  <script src="js/main.js"></script>
+	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js" async></script>
+ 
+  <script async>
+    $(document).ready(function() {
+          $('.home').show();
+          $('.aboutus').hide();
+          $('.rates').hide();
+          $('.schedule').hide();
+          $('.contact').hide();
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('#btn-home').click(function() {
+          $('.home').show();
+          $('.aboutus').hide();
+          $('.rates').hide();
+          $('.schedule').hide();
+          $('.contact').hide();
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('#btn-aboutus').click(function() {
+          $('.home').hide();
+          $('.aboutus').show();
+          $('.rates').hide();
+          $('.schedule').hide();
+          $('.contact').hide();
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('#btn-rates').click(function() {
+          $('.home').hide();
+          $('.aboutus').hide();
+          $('.rates').show();
+          $('.schedule').hide();
+          $('.contact').hide();
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('#btn-schedule').click(function() {
+          $('.home').hide();
+          $('.aboutus').hide();
+          $('.rates').hide();
+          $('.schedule').show();
+          $('.contact').hide();
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('#btn-contact').click(function() {
+          $('.home').hide();
+          $('.aboutus').hide();
+          $('.rates').hide();
+          $('.schedule').hide();
+          $('.contact').show();
+      });
+    });
+  </script>
 </head>
-  <body class="container-fluid">
-  	<div class="container">
-    <div class="row title">
-      <div class="col-xs-6 col-md-6"><img src="images/logo1.jpg" class="title-image" ></div>
-      <div class="col-xs-6 col-md-6 text-right text-uppercase">
-        <h1 class="title-name">Yoga Corp</h1>
-        <h3 class="sub-title">Body & mind centered</h3>
-      </div>
+
+<body class="container-fluid">
+	<div class="container">
+  <div class="row title">
+    <div class="col-xs-6 col-md-6"><img src="images/logo1.jpg" class="title-image" ></div>
+    <div class="col-xs-6 col-md-6 text-right text-uppercase">
+      <h1 class="title-name">Yoga Corp</h1>
+      <h3 class="sub-title">Body & mind centered</h3>
     </div>
-    <div class"col-md-12 divide">
+  </div>
+  <div class"col-md-12 divide">
+  </div>
+  <div class="row background-main">
+  <div class="row image-margin">
+  	
+    <div class="col-md-12 jumbotron">
+    	<img src="images/rsz_1jumbotron1.jpg" class="img-responsive header-pic">
     </div>
-    <div class="row background-main">
-    <div class="row image-margin">
-    	
-      <div class="col-md-12 jumbotron">
-      	<img src="images/rsz_1jumbotron1.jpg" class="img-responsive header-pic">
-      </div>
-    </div>
-      <div class="col-md-12">
-        <ul id="menu">
-          <a href="/"><li>Home</li></a>
-          <a href="aboutus/"><li>About Us</li></a>
-          <a href="rates/"><li>Rates</li></a>
-          <a href="schedule/"><li>Schedule</li></a>
-          <a href="contact/"><li>Contact</li></a>
-        </ul>
+  </div>
+    
+    <button type="button" id="btn-home">Home</button>
+    <button type="button" id="btn-aboutus">About Us</button>
+    <button type="button" id="btn-rates">Rates</button>
+    <button type="button" id="btn-schedule">Schedule</button>
+    <button type="button" id="btn-contact">Contact</button>
+
+
+<!-- Home section -->
+    <div class="col-md-12 home">
+      <div class="row body-margin">
+
+       		 <h2 class="text-alt home">Welcome</h2>
+           <div class="col-md-12 home">
+            <p>
+              Originally, yoga was taught by one teacher directly to one student. The great ancient teachers understood the importance of individualizing each yoga experience to meet the needs of the student. Today, a private session allows for a more intimate view into your practice. You can start a new practice, deepen your practice or spend some time working with an injury or condition. When you work with a teacher one on one, the teacher is able to help you experience the benefits of yoga in a safe, personal way.
+            </p>
+            <br>
+            <p>
+              Private Yoga is an invaluable tool for students of all levels and experience. Private lessons provide the perfect setting to address your goals and work on areas of individual interest. You can work with the teacher of your choice or we can match a teacher to meet your expressed needs. Private Yoga can help you deepen your practice, gain confidence, answer questions and provide guidance. Our teachers can develop a home practice tailored to your individual needs.
+            </p>
+           </div>
+           <div>
+        </div>
+        <div class="col-md-6 home">
+          <img src="images/privates-min.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6 home">
+          <h3>Private Yoga Sessions</h3>
+            <p>For new, continuing and experienced students.</p>
+            <ul>
+              <li>Book 1 session: $85</li>
+              <li>Book 2 sessions: (10% discount)</li>
+              <li>Book 3 sessions: (15% discount)</li>
+            </ul>
+            <p>To book your private class, email .............to be filled in later</p>
+        </div>
+        <div class="col-md-12 home">
+          <h2>Why take a private class?</h2>
+            <h3>For new students</h3>
+            <p>As a new student, you may be intimidated by the public classroom environment. Private classes allow instructors the opportunity to focus on you and make sure you are getting off to an appropriate start. </p>
+            <h3>For more experienced students</h3>
+            <p>Experienced students benefit from privates as well. You are able to have a deeper insight into specific postures or categories of postures that interest you. Private yoga sessions are the perfect learning environment. We can help you with posture alignment, modifications and can help you develop a balanced home practice. Private yoga classes can also give the experienced student time to learn about yoga philosophy or other aspects of interest, such as meditation and breathing practices.</p>
+        </div>
+
+
+        
+        </div>
       </div>
 
-    <div class="col-md-12">
+<!-- About Us section -->
+    <div class="col-md-12 aboutus">
+      <div class="row body-margin">
+
+         <h2 class="text-alt">About Us</h2>
+        <h3>Teacher</h3>
+        <h4>David Kendal</h4>
+        <div class="col-md-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="col-md-6">
+          <img src="images/rsz_david.jpg" class="img-responsive">
+        </div>
+      </div>
+    </div>
+
+<!-- Rates section -->
+    <div class="col-md-12 rates">
     <div class="row body-margin">
 
-     		 <h2 class="text-alt">Welcome</h2>
+         <h2 class="text-alt">Rates</h2>
          <div class="col-md-12">
-          <p>
-            Originally, yoga was taught by one teacher directly to one student. The great ancient teachers understood the importance of individualizing each yoga experience to meet the needs of the student. Today, a private session allows for a more intimate view into your practice. You can start a new practice, deepen your practice or spend some time working with an injury or condition. When you work with a teacher one on one, the teacher is able to help you experience the benefits of yoga in a safe, personal way.
-          </p>
-          <br>
-          <p>
-            Private Yoga is an invaluable tool for students of all levels and experience. Private lessons provide the perfect setting to address your goals and work on areas of individual interest. You can work with the teacher of your choice or we can match a teacher to meet your expressed needs. Private Yoga can help you deepen your practice, gain confidence, answer questions and provide guidance. Our teachers can develop a home practice tailored to your individual needs.
-          </p>
-         </div>
-         <div>
-      </div>
-      <div class="col-md-6">
-        <img src="images/privates-min.jpg" class="img-responsive">
-      </div>
-      <div class="col-md-6">
-        <h3>Private Yoga Sessions</h3>
+          <h3>Private Yoga Sessions</h3>
           <p>For new, continuing and experienced students.</p>
           <ul>
             <li>Book 1 session: $85</li>
@@ -63,22 +179,41 @@
             <li>Book 3 sessions: (15% discount)</li>
           </ul>
           <p>To book your private class, email .............to be filled in later</p>
+        </div>
       </div>
-      <div class="col-md-12">
-        <h2>Why take a private class?</h2>
-          <h3>For new students</h3>
-          <p>As a new student, you may be intimidated by the public classroom environment. Private classes allow instructors the opportunity to focus on you and make sure you are getting off to an appropriate start. </p>
-          <h3>For more experienced students</h3>
-          <p>Experienced students benefit from privates as well. You are able to have a deeper insight into specific postures or categories of postures that interest you. Private yoga sessions are the perfect learning environment. We can help you with posture alignment, modifications and can help you develop a balanced home practice. Private yoga classes can also give the experienced student time to learn about yoga philosophy or other aspects of interest, such as meditation and breathing practices.</p>
-      </div>
+    </div>
 
+<!-- Schedule section -->
+
+    <div class="col-md-12 schedule">
+    <div class="row body-margin">
+
+         <h2 class="text-alt">Schedule</h2>
+         
 
     
-</div>
+        </div>
+      </div>
 </div>
 
+<!-- Contact section -->
 
-</div>
+    <div class="col-md-12 contact">
+    <div class="row body-margin">
+
+         <h2 class="text-alt">Contact</h2>
+         <div class="col-md-12">
+          <h5>YogaCorp</h3>
+          <h5>36 Julia St.</h3>
+          <h5>Thornhill, Ontario</h3>
+          <h5>Phone: 416-892-4459 </h3>
+          <h5>E-mail: something@yogacorp.ca</h3>
+        
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <div class="row footer">
               <ul id="foot-menu">
