@@ -84,8 +84,24 @@ img {
 	background-color: #9596B3;
 }
 
-@media all and (max-width: 1000px) { /* screen size until 500px */
+@media all and (max-width: 1000px) { /* screen size until 1000px */
     body {
-        font-size: 3em; /* 0.8x default size */
+        font-size: 3em; /* 3x default size */
         }
+    h2 {
+    	font-size: 1.5em;
     }
+    h3 {
+    	font-size: 1.5em;
+    }
+    h5 {
+    	font-size: 1.2em;
+    }
+    .title-name {
+		font-weight:600;
+	}
+	#menu li{
+  		padding: 2%;
+  		font-size: 32px;
+}
+}
