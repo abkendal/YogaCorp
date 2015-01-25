@@ -15,6 +15,20 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+button {
+    background:none!important;
+     border:none; 
+     padding:0!important;
+     cursor: pointer;
+     margin-left:5%;
+     margin-right:5%;
+  	font-size: 25px;
+  	color: #428bca;
+
+}
+#btn-home {
+	margin-left:8%;
+}
 #menu ul{
   list-style: none;
 }
@@ -93,6 +107,9 @@ img {
 }
 .footer {
 	background-color: rgba(139, 141, 178, 0.75);
+}
+.footer-button {
+	  color: #265277;
 }
 @media all and (max-width: 1000px) { /* screen size until 1000px */
     body {

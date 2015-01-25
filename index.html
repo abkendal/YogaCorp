@@ -21,7 +21,7 @@
 
   <script async>
     $(document).ready(function() {
-      $('#btn-home').click(function() {
+      $('.btn-home').click(function() {
           $('.home').show();
           $('.aboutus').hide();
           $('.rates').hide();
@@ -33,7 +33,19 @@
 
   <script async>
     $(document).ready(function() {
-      $('#btn-aboutus').click(function() {
+      $('.foot-menu1').click(function() {
+          $('.home').show();
+          $('.aboutus').hide();
+          $('.rates').hide();
+          $('.schedule').hide();
+          $('.contact').hide();
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('.btn-aboutus').click(function() {
           $('.home').hide();
           $('.aboutus').show();
           $('.rates').hide();
@@ -45,7 +57,7 @@
 
   <script async>
     $(document).ready(function() {
-      $('#btn-rates').click(function() {
+      $('.btn-rates').click(function() {
           $('.home').hide();
           $('.aboutus').hide();
           $('.rates').show();
@@ -57,7 +69,7 @@
 
   <script async>
     $(document).ready(function() {
-      $('#btn-schedule').click(function() {
+      $('.btn-schedule').click(function() {
           $('.home').hide();
           $('.aboutus').hide();
           $('.rates').hide();
@@ -69,7 +81,7 @@
 
   <script async>
     $(document).ready(function() {
-      $('#btn-contact').click(function() {
+      $('.btn-contact').click(function() {
           $('.home').hide();
           $('.aboutus').hide();
           $('.rates').hide();
@@ -99,12 +111,11 @@
     </div>
   </div>
     
-    <button type="button" id="btn-home">Home</button>
-    <button type="button" id="btn-aboutus">About Us</button>
-    <button type="button" id="btn-rates">Rates</button>
-    <button type="button" id="btn-schedule">Schedule</button>
-    <button type="button" id="btn-contact">Contact</button>
-
+    <button type="button" class="btn-home">Home</button>
+    <button type="button" class="btn-aboutus">About Us</button>
+    <button type="button" class="btn-rates">Rates</button>
+    <button type="button" class="btn-schedule">Schedule</button>
+    <button type="button" class="-contact">Contact</button>
 
 <!-- Home section -->
     <div class="col-md-12 home">
@@ -194,13 +205,11 @@
     
         </div>
       </div>
-</div>
+
 
 <!-- Contact section -->
-
-    <div class="col-md-12 contact">
+<div class="col-md-12 contact">
     <div class="row body-margin">
-
          <h2 class="text-alt">Contact</h2>
          <div class="col-md-12">
           <h5>YogaCorp</h3>
@@ -209,25 +218,25 @@
           <h5>Phone: 416-892-4459 </h3>
           <h5>E-mail: something@yogacorp.ca</h3>
         
-          </div>
         </div>
+  </div>
+</div>
+
+</div>
+
+
+      <div class="row footer">
+        <button type="button" class="footer-button btn-home">Home</button>
+        <button type="button" class="footer-button btn-aboutus">About Us</button>
+        <button type="button" class="footer-button btn-rates">Rates</button>
+        <button type="button" class="footer-button btn-schedule">Schedule</button>
+        <button type="button" class="footer-button btn-contact">Contact</button>
       </div>
+
+
 
     </div>
 
-    <div class="row footer">
-              <ul id="foot-menu">
-          <a id="foot-menu" href="/"><li>Home</li></a>
-          <a id="foot-menu" href="aboutus/"><li>About Us</li></a>
-          <a id="foot-menu" href="rates/"><li>Rates</li></a>
-          <a id="foot-menu" href="schedule/"><li>Schedule</li></a>
-          <a id="foot-menu" href="contact/"><li>Contact</li></a>
-        </ul>
-      </div>
-
-
-
-    </div>
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
   </body>
 </html>
