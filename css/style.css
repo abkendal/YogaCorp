@@ -25,12 +25,12 @@ img {
 }
 #foot-menu ul{
   list-style: none;
-  color: #265277;
 }
 #foot-menu li{
   display: inline;
   padding: 5%;
   font-size: 25px;
+  color: #265277;
 }
 .container {
 	width: 85%;
