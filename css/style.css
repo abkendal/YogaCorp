@@ -92,7 +92,7 @@ img {
 	background-color: #9596B3;
 }
 .footer {
-	background-color: #8B8DB2;
+	background-color: rgba(139, 141, 178, 0.75);
 }
 @media all and (max-width: 1000px) { /* screen size until 1000px */
     body {
@@ -104,6 +104,9 @@ img {
     h3 {
     	font-size: 1.5em;
     }
+    h4 {
+    	font-size: 1.2em;
+    }
     h5 {
     	font-size: 1.2em;
     }
@@ -113,5 +116,16 @@ img {
 	#menu li{
   		padding: 2%;
   		font-size: 32px;
-}
+	}
+	#foot-menu li{
+  		display: inline;
+  		padding: 2%;
+  		font-size: 32px;
+  		color: #265277;
+	}
+	.title-image {
+	position: relative;
+	top:15px;
+	size: 150%;
+	}
 }
