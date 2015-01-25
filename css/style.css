@@ -8,11 +8,20 @@ body {
 	background-color: white;
 	box-sizing: border-box;
 	max-width: 1160px;
+	font-size: 16px
 }
 
 img {
 	margin-left: auto;
 	margin-right: auto;
+}
+#menu ul{
+  list-style: none;
+}
+#menu li{
+  display: inline;
+  padding: 5%;
+  font-size: 25px;
 }
 
 .container {
@@ -74,3 +83,9 @@ img {
 .divide {
 	background-color: #9596B3;
 }
+
+@media all and (max-width: 1000px) { /* screen size until 500px */
+    body {
+        font-size: 3em; /* 0.8x default size */
+        }
+    }
