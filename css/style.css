@@ -29,6 +29,9 @@ button {
 #btn-home {
 	margin-left:8%;
 }
+.btn-contact {
+	margin-right: 0%;
+}
 #menu ul{
   list-style: none;
 }
@@ -54,7 +57,6 @@ button {
 	position: relative;
 	margin:20px;
 	box-sizing: border-box;
-	/**border-bottom: 5px solid #9596B3;*/
 	color:#131a2d;
 	padding:20px;
 	width: 100%;
