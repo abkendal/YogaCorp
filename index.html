@@ -13,7 +13,7 @@
           $('.home').show();
           $('.aboutdavid').hide();
           $('.rates').hide();
-          $('.schedule').hide();
+          $('.corporate').hide();
           $('.contact').hide();
           window.location.hash = 'home';
     });
@@ -25,7 +25,7 @@
           $('.home').show();
           $('.aboutdavid').hide();
           $('.rates').hide();
-          $('.schedule').hide();
+          $('.corporate').hide();
           $('.contact').hide();
           window.location.hash = 'home';
       });
@@ -38,7 +38,7 @@
           $('.home').hide();
           $('.aboutdavid').show();
           $('.rates').hide();
-          $('.schedule').hide();
+          $('.corporate').hide();
           $('.contact').hide();
           window.location.hash = 'aboutdavid';
       });
@@ -51,7 +51,7 @@
           $('.home').hide();
           $('.aboutdavid').hide();
           $('.rates').show();
-          $('.schedule').hide();
+          $('.corporate').hide();
           $('.contact').hide();
           window.location.hash = 'rates';
       });
@@ -60,13 +60,13 @@
 
   <script async>
     $(document).ready(function() {
-      $('.btn-schedule').click(function() {
+      $('.btn-corporate').click(function() {
           $('.home').hide();
           $('.aboutdavid').hide();
           $('.rates').hide();
-          $('.schedule').show();
+          $('.corporate').show();
           $('.contact').hide();
-          window.location.hash = 'schedule';
+          window.location.hash = 'corporate';
       });
     });
   </script>
@@ -77,7 +77,7 @@
           $('.home').hide();
           $('.aboutdavid').hide();
           $('.rates').hide();
-          $('.schedule').hide();
+          $('.corporate').hide();
           $('.contact').show();
           window.location.hash = 'contact';
       });
@@ -112,7 +112,7 @@
     <button type="button" class="btn-home">Home</button>
     <button type="button" class="btn-aboutdavid">About David</button>
     <button type="button" class="btn-rates">Rates</button>
-    <button type="button" class="btn-schedule">Corporate</button>
+    <button type="button" class="btn-corporate">Corporate</button>
     <button type="button" class="btn-contact">Contact</button>
 
 <!-- Home section -->
@@ -132,7 +132,7 @@
            <div>
         </div>
         <div class="col-md-6 home">
-          <img src="images/privates-min.jpg" class="img-responsive">
+          <img src="images/image2.jpg" class="img-responsive">
         </div>
         <div class="col-md-6 home">
           <h3>Private Yoga Sessions</h3>
@@ -205,12 +205,12 @@
       </div>
     </div>
 
-<!-- Schedule section -->
+<!-- Corporate section -->
 
-    <div class="col-md-12 schedule">
+    <div class="col-md-12 corporate">
     <div class="row body-margin">
 
-         <h2 class="text-alt">Schedule</h2>
+         <h2 class="text-alt">Corporate</h2>
          
 
     
@@ -242,7 +242,7 @@
         <button type="button" class="footer-button btn-home">Home</button>
         <button type="button" class="footer-button btn-aboutdavid">About David</button>
         <button type="button" class="footer-button btn-rates">Rates</button>
-        <button type="button" class="footer-button btn-schedule">Schedule</button>
+        <button type="button" class="footer-button btn-corporate">corporate</button>
         <button type="button" class="footer-button btn-contact">Contact</button>
       </div>
 
