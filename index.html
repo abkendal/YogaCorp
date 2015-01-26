@@ -5,13 +5,13 @@
 	<meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery-1.11.2.min.js" async></script>
 	<script src="js/bootstrap.min.js" async></script>
  
   <script async>
     $(document).ready(function() {
           $('.home').show();
-          $('.aboutus').hide();
+          $('.aboutdavid').hide();
           $('.rates').hide();
           $('.schedule').hide();
           $('.contact').hide();
@@ -23,7 +23,7 @@
     $(document).ready(function() {
       $('.btn-home').click(function() {
           $('.home').show();
-          $('.aboutus').hide();
+          $('.aboutdavid').hide();
           $('.rates').hide();
           $('.schedule').hide();
           $('.contact').hide();
@@ -36,7 +36,7 @@
     $(document).ready(function() {
       $('.foot-menu1').click(function() {
           $('.home').show();
-          $('.aboutus').hide();
+          $('.aboutdavid').hide();
           $('.rates').hide();
           $('.schedule').hide();
           $('.contact').hide();
@@ -47,13 +47,13 @@
 
   <script async>
     $(document).ready(function() {
-      $('.btn-aboutus').click(function() {
+      $('.btn-aboutdavid').click(function() {
           $('.home').hide();
-          $('.aboutus').show();
+          $('.aboutdavid').show();
           $('.rates').hide();
           $('.schedule').hide();
           $('.contact').hide();
-          window.location.hash = 'aboutus';
+          window.location.hash = 'aboutdavid';
       });
     });
   </script>
@@ -62,7 +62,7 @@
     $(document).ready(function() {
       $('.btn-rates').click(function() {
           $('.home').hide();
-          $('.aboutus').hide();
+          $('.aboutdavid').hide();
           $('.rates').show();
           $('.schedule').hide();
           $('.contact').hide();
@@ -75,7 +75,7 @@
     $(document).ready(function() {
       $('.btn-schedule').click(function() {
           $('.home').hide();
-          $('.aboutus').hide();
+          $('.aboutdavid').hide();
           $('.rates').hide();
           $('.schedule').show();
           $('.contact').hide();
@@ -88,7 +88,7 @@
     $(document).ready(function() {
       $('.btn-contact').click(function() {
           $('.home').hide();
-          $('.aboutus').hide();
+          $('.aboutdavid').hide();
           $('.rates').hide();
           $('.schedule').hide();
           $('.contact').show();
@@ -123,7 +123,7 @@
 
 <!-- Top menu --> 
     <button type="button" class="btn-home">Home</button>
-    <button type="button" class="btn-aboutus">About Us</button>
+    <button type="button" class="btn-aboutdavid">About Us</button>
     <button type="button" class="btn-rates">Rates</button>
     <button type="button" class="btn-schedule">Schedule</button>
     <button type="button" class="btn-contact">Contact</button>
@@ -171,7 +171,7 @@
       </div>
 
 <!-- About Us section -->
-    <div class="col-md-12 aboutus">
+    <div class="col-md-12 aboutdavid">
       <div class="row body-margin">
 
          <h2 class="text-alt">About Us</h2>
@@ -238,7 +238,7 @@
 <!-- Bottom menu -->
       <div class="row footer">
         <button type="button" class="footer-button btn-home">Home</button>
-        <button type="button" class="footer-button btn-aboutus">About Us</button>
+        <button type="button" class="footer-button btn-aboutdavid">About Us</button>
         <button type="button" class="footer-button btn-rates">Rates</button>
         <button type="button" class="footer-button btn-schedule">Schedule</button>
         <button type="button" class="footer-button btn-contact">Contact</button>
