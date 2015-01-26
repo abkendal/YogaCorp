@@ -130,15 +130,15 @@ button {
     .title-name {
 		font-weight:600;
 	}
-	#menu li{
-  		padding: 2%;
-  		font-size: 32px;
+	button {
+
+     margin-left:2%;
+     margin-right:2%;
+  	font-size: 32px;
+
 	}
-	#foot-menu li{
-  		display: inline;
-  		padding: 2%;
-  		font-size: 32px;
-  		color: #265277;
+	.btn-home {
+	margin-left:7%;
 	}
 	.title-image {
 	position: relative;
