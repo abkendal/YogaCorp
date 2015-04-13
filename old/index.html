@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js" async></script>
+ 
+  <script async>
+    $(document).ready(function() {
+          $('.home').show();
+          $('.aboutdavid').hide();
+          $('.rates').hide();
+          $('.corporate').hide();
+          $('.contact').hide(); 
+          window.location.hash = 'home';
+          console.log("Working");
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('.btn-home').click(function() {
+          $('.home').show();
+          $('.aboutdavid').hide();
+          $('.rates').hide();
+          $('.corporate').hide();
+          $('.contact').hide();
+          window.location.hash = 'home';
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('.btn-aboutdavid').click(function() {
+          $('.home').hide();
+          $('.aboutdavid').show();
+          $('.rates').hide();
+          $('.corporate').hide();
+          $('.contact').hide();
+          window.location.hash = 'aboutdavid';
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('.btn-rates').click(function() {
+          $('.home').hide();
+          $('.aboutdavid').hide();
+          $('.rates').show();
+          $('.corporate').hide();
+          $('.contact').hide();
+          window.location.hash = 'rates';
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('.btn-corporate').click(function() {
+          $('.home').hide();
+          $('.aboutdavid').hide();
+          $('.rates').hide();
+          $('.corporate').show();
+          $('.contact').hide();
+          window.location.hash = 'corporate';
+      });
+    });
+  </script>
+
+  <script async>
+    $(document).ready(function() {
+      $('.btn-contact').click(function() {
+          $('.home').hide();
+          $('.aboutdavid').hide();
+          $('.rates').hide();
+          $('.corporate').hide();
+          $('.contact').show();
+          window.location.hash = 'contact';
+      });
+    });
+  </script>
+</head>
+
+<!-- Page container -->
+<body>
+<!-- Page title -->
+  <div class="row title">
+    <div class="col-xs-6 col-md-6"><img src="images/logo1.jpg" class="title-image" ></div>
+    <div class="col-xs-6 col-md-6 text-right text-uppercase">
+      <h1 class="title-name">Yoga Corp</h1>
+      <h3 class="sub-title">Body & mind centered</h3>
+    </div>
+  </div>
+  <div class"col-md-12 divide">
+  </div>
+<!-- Jumbotron -->
+  <div class="row background-main">
+  <div class="row image-margin">
+  	
+    <div class="col-md-12 jumbotron">
+    	<img src="images/rsz_1jumbotron1.jpg" class="img-responsive header-pic">
+    </div>
+  </div>
+
+<!-- Top menu --> 
+    <button type="button" class="btn-home">Home</button>
+    <button type="button" class="btn-aboutdavid">About David</button>
+    <button type="button" class="btn-rates">Rates</button>
+    <button type="button" class="btn-corporate">Corporate</button>
+    <button type="button" class="btn-contact">Contact</button>
+
+<!-- Home section -->
+    <div class="col-md-12 home">
+      <div class="row body-margin">
+
+       		 <h2 class="text-alt home">Welcome</h2>
+           <div class="col-md-12 home">
+            <p>
+              Originally, yoga was taught by one teacher directly to one student. The great ancient teachers understood the importance of individualizing each yoga experience to meet the needs of the student. Today, a private session allows for a more intimate view into your practice. You can start a new practice, deepen your practice or spend some time working with an injury or condition. When you work with a teacher one on one, the teacher is able to help you experience the benefits of yoga in a safe, personal way.
+            </p>
+            <br>
+            <p>
+              Private Yoga is an invaluable tool for students of all levels and experience. Private lessons provide the perfect setting to address your goals and work on areas of individual interest. You can work with the teacher of your choice or we can match a teacher to meet your expressed needs. Private Yoga can help you deepen your practice, gain confidence, answer questions and provide guidance. Our teachers can develop a home practice tailored to your individual needs.
+            </p>
+           </div>
+           <div>
+        </div>
+        <div class="col-md-6 home">
+          <img src="images/image-home.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6 home">
+          <h3>Private Yoga Sessions</h3>
+            <p>For new, continuing and experienced students.</p>
+            <ul>
+              <li>Book 1 session: $85</li>
+              <li>Book 2 sessions: (10% discount)</li>
+              <li>Book 3 sessions: (15% discount)</li>
+            </ul>
+            <p>To book your private class, email davidkendal@yogacorp.ca</p>
+        </div>
+        <div class="col-md-12 home">
+          <h2>Why take a private class?</h2>
+            <h3>For new students</h3>
+            <p>As a new student, you may be intimidated by the public classroom environment. Private classes allow instructors the opportunity to focus on you and make sure you are getting off to an appropriate start. </p>
+            <h3>For more experienced students</h3>
+            <p>Experienced students benefit from privates as well. You are able to have a deeper insight into specific postures or categories of postures that interest you. Private yoga sessions are the perfect learning environment. We can help you with posture alignment, modifications and can help you develop a balanced home practice. Private yoga classes can also give the experienced student time to learn about yoga philosophy or other aspects of interest, such as meditation and breathing practices.</p>
+        </div>
+
+
+        
+        </div>
+      </div>
+
+<!-- About David section -->
+    <div class="col-md-12 aboutdavid">
+      <div class="row body-margin">
+
+         <h2 class="text-alt">About David</h2>
+        <div class="col-md-8">
+          <h4><b>Teaching Style</b></h4>
+          <p>Hatha Vinyasa flow from beginners to advanced. I like to keep it simple, safe and style my sequences to the abilities of my student(s).</p>
+          <br>
+          <h4><b>Training</b></h4>
+          <p>280 hr yoga Teacher Training with Yogi Jason Lu YogaTree co-owner and Founder</p>
+          <br>
+          <h4><b>Why I Teach</b></h4>
+          <p>I hope to help redefine what we think of as physical education.</p>
+          <p>My focus is, teaching strategies which help you attain proper alignment and full range of motion within your yoga practice and abilities, across all ages. Students refer to my classes as “ challenging, real and fun”. I try to lead by example and get students to open up and explore unknown depths of their own physical, and mental well being within their practice. </p>
+          <br>
+          <h4><b>A Litte About Me...</b></h4>
+          <p>I first started practicing yoga  over ten years ago in my early 40's.</p>
+          <p>I quickly realized the personal benefits that I was achieving on both a physical as well as on a mental level. Unlike going to the gym for my regular workout, yoga brought me to a place of both community and great overall workout. </p>
+          <p>As my practice deepened over time I soon came to realization the positive addictive nature yoga has. This is what I want to bring to my students. </p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/rsz_david.jpg" class="img-responsive">
+        </div>
+      </div>
+    </div>
+
+<!-- Rates section -->
+    <div class="col-md-12 rates">
+      <div class="row body-margin">
+        <h2 class="text-alt">Rates</h2>
+         <div class="col-md-6">
+          <h3>Private Yoga Sessions</h3>
+            <p>For new, continuing and experienced students.</p>
+            <ul>
+              <li>Book 1 session: $85</li>
+              <li>Book 2 sessions: (10% discount)</li>
+              <li>Book 3 sessions: (15% discount)</li>
+            </ul>
+            <p>To book your private class, email davidkendal@yogacorp.ca</p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/image-rates.jpg" class="img-responsive">
+          </div>
+      </div>
+    </div>
+
+<!-- Corporate section -->
+
+    <div class="col-md-12 corporate">
+      <div class="row body-margin">
+        <h2 class="text-alt">Corporate</h2>
+        <div class="col-md-8">
+          <p>I'm looking to build a clients base for both private or semi private classes as well as corporate classes. </p>
+
+          <p>Yoga in the workplace boost productivity, reduces sick days, increase mental clarity, combat fatigue, improve memory, strengthen the muscles, fight stress and increase workplace satisfaction. The effects of yoga, when you do it correctly, can be immediate. Employees have come away saying their minds are more focused, their energy levels are boosted and they've combated stress.  </p>
+          <p>I offer several types of corporate yoga programs, all based out of your office, customized to your employees schedule and availability.</p>
+          <br>
+          <p>David Kendal</p>
+          <p>416-892-4459</p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/rsz_image6.jpg" class="img-responsive">
+        </div>
+    
+        </div>
+      </div>
+
+
+<!-- Contact section -->
+<div class="col-md-12 contact">
+    <div class="row body-margin">
+        <h2 class="text-alt">Contact</h2>
+        <div class="col-md-6">
+          <img src="images/image-contact.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <p>YogaCorp</p>
+          <p>Thornhill, Ontario</p>
+          <p>Phone: 416-892-4459 </p>
+          <p>E-mail: davidkendal@yogacorp.ca</p>
+        
+        </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Bottom menu -->
+      <div class="row footer-menu">
+        <button type="button" class="footer-button btn-home">Home</button>
+        <button type="button" class="footer-button btn-aboutdavid">About David</button>
+        <button type="button" class="footer-button btn-rates">Rates</button>
+        <button type="button" class="footer-button btn-corporate">Corporate</button>
+        <button type="button" class="footer-button btn-contact">Contact</button>
+      </div>
+
+<div class="row footer">
+  <p>&copy; 2015. All rights reserved.</p>
+  <br>
+  <br>
+  <br>
+      </div>
+
+
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+  </body>
+</html>
+
