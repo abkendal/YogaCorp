@@ -31,6 +31,7 @@ footer {
 }
 .navbar-header {
 	height: 120px;
+	text-align:right;
 }
 .navbar-logo {
   height: 105px;
