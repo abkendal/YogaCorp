@@ -37,6 +37,8 @@ footer {
   height: 105px;
   margin-top: 7px;
   margin-right: -40px;
+  position: relative;
+  float: left;
 }
 
 .top {
