@@ -8,18 +8,18 @@ list-style-type: none;
 padding-right: 20px;
 }
 footer {
-  margin-top: 8em;
+  margin-top: 110px;
 }
 .navbar-header {
 	height: 4em;
 }
 #body-content {
 	position: relative;
-	top: 65px;
+	top: 110px;
 }
 #jumbotron {
 	position:relative;
-	top: 65px;
+	top: 110px;
 }
 #nav {
 	width: 100%;
@@ -31,3 +31,5 @@ footer {
 	float:right;
 
 }
+#footer-nav {
+	margin-left: 80px;
