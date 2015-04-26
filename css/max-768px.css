@@ -8,7 +8,8 @@ list-style-type: none;
 padding-right: 20px;
 }
 footer {
-  margin-top: 110px;
+  position: relative;
+	top: 110px;
 }
 .navbar-header {
 	height: 4em;

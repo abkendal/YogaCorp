@@ -33,6 +33,9 @@
           $(document).ready(function() {
                 $('.home').show();
                 $('.aboutdavid').hide();
+                $('.yogaformen').hide();
+                $('.private').hide();
+                $('.testimonials').hide();
                 $('.rates').hide();
                 $('.corporate').hide();
                 $('.contact').hide(); 
@@ -45,6 +48,9 @@
             $('.btn-home').click(function() {
                 $('.home').show();
                 $('.aboutdavid').hide();
+                $('.yogaformen').hide();
+                $('.private').hide();
+                $('.testimonials').hide();
                 $('.rates').hide();
                 $('.corporate').hide();
                 $('.contact').hide();
@@ -58,6 +64,9 @@
             $('.btn-aboutdavid').click(function() {
                 $('.home').hide();
                 $('.aboutdavid').show();
+                $('.yogaformen').hide();
+                $('.private').hide();
+                $('.testimonials').hide();
                 $('.rates').hide();
                 $('.corporate').hide();
                 $('.contact').hide();
@@ -71,6 +80,9 @@
             $('.btn-rates').click(function() {
                 $('.home').hide();
                 $('.aboutdavid').hide();
+                $('.yogaformen').hide();
+                $('.private').hide();
+                $('.testimonials').hide();
                 $('.rates').show();
                 $('.corporate').hide();
                 $('.contact').hide();
@@ -84,6 +96,9 @@
             $('.btn-corporate').click(function() {
                 $('.home').hide();
                 $('.aboutdavid').hide();
+                $('.yogaformen').hide();
+                $('.private').hide();
+                $('.testimonials').hide();
                 $('.rates').hide();
                 $('.corporate').show();
                 $('.contact').hide();
@@ -97,10 +112,61 @@
             $('.btn-contact').click(function() {
                 $('.home').hide();
                 $('.aboutdavid').hide();
+                $('.yogaformen').hide();
+                $('.private').hide();
+                $('.testimonials').hide();
                 $('.rates').hide();
                 $('.corporate').hide();
                 $('.contact').show();
                 window.location.hash = 'contact';
+            });
+          });
+        </script>
+
+                <script async>
+          $(document).ready(function() {
+            $('.btn-yogaformen').click(function() {
+                $('.home').hide();
+                $('.aboutdavid').hide();
+                $('.yogaformen').show();
+                $('.private').hide();
+                $('.testimonials').hide();
+                $('.rates').hide();
+                $('.corporate').hide();
+                $('.contact').hide();
+                window.location.hash = 'corporate';
+            });
+          });
+        </script>
+
+                <script async>
+          $(document).ready(function() {
+            $('.btn-private').click(function() {
+                $('.home').hide();
+                $('.aboutdavid').hide();
+                $('.yogaformen').hide();
+                $('.private').show();
+                $('.testimonials').hide();
+                $('.rates').hide();
+                $('.corporate').hide();
+                $('.contact').hide();
+                window.location.hash = 'corporate';
+            });
+          });
+        </script>
+
+                <script async>
+          $(document).ready(function() {
+            $('.btn-testimonials').click(function() {
+                $('.home').hide();
+                $('.aboutdavid').hide();
+                $('.yogaformen').hide();
+                $('.private').hide();
+                $('.testimonials').show();
+                $('.rates').hide();
+                $('.corporate').hide();
+                $('.contact').hide();
+                window.location.hash = 'corporate';
             });
           });
         </script>
@@ -244,7 +310,7 @@
           <br>
           <br>
           <br>
-          
+
                       <p>For more information, or to book a session, please: <br>
             Call: 416-892-4459<br>
             E-mail: davidkendal@yogacorp.ca </p>
