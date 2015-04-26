@@ -10,7 +10,7 @@ footer {
  	left:0;
  	right:0;
  }
-a {
+footer a {
 	color: white;
 }
 h1 {
@@ -65,7 +65,8 @@ footer {
 #body-content p {
 	font-family: Roboto, sans-serif;
   	color: #4d4d4d;
-  	font-size: 20px;
+  	font-size: 17px;
+  	text-align: justify;
 }
 
 

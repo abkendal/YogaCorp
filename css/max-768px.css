@@ -1,8 +1,8 @@
-ul {
+#collapse ul {
 	list-style-type: none;
 	float:right;
 }
-li {
+#collapse li {
 display: inline;
 list-style-type: none;
 padding-right: 20px;
