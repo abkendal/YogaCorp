@@ -14,13 +14,9 @@ footer {
 .navbar-header {
 	height: 4em;
 }
-#body-content {
+#body-whole {
 	position: relative;
-	top: 110px;
-}
-#jumbotron {
-	position:relative;
-	top: 110px;
+	top: 50px;
 }
 #nav {
 	width: 100%;
